@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.header {
+    background:grey;
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+.header .logo h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 10px;
+    color: violet;
+    
+}
+
+.header .links {
+    padding: 10px;
+    text-align: end;
+}
+
+.links>a {
+    color: white;
+    text-decoration: none;
+    margin:15px;
+    font-size: 20px;
+    transition: transform 1s;
+
+}
+
+.links>:hover{
+    transform: scale(2,2);
+    font-size: 25px;
+    color:violet;
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 46px 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.personal h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.personal h1 span {
+    font-weight: 700;
+    color: #1e90ff;
+} 
+
+.personal p {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 17px;
+    
+}
+#Home .img img {
+    width: 300px;
+    height: 300px;
+}
+.Btn{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    position: relative;
+    bottom: -9px;
+}
+#About {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+#About{
+        padding: 20px;
+    }
+
+#About>h1 {
+        font-size: 28px;
+    }
+
+ #About>p {
+        font-size: 26px;
+        background-color: gray;
+        color: antiquewhite;
+}
+#About>img{
+    height: 200px;
+    width: 200px;
+    padding:left;
+}
+#Education {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.qualifiaction {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 21px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Education h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    text-align: left;
+
+}
+#Contact {
+    background-color: #f9f9f9; 
+    padding: 60px 20px; 
+    text-align:center; 
+    margin-top:auto ;
+}
+
+.Contacts h1 {
+    font-size: 36px; 
+    font-family: 'Arial', sans-serif; 
+    color: #333;
+    
+}
+
+.Contacts img {
+    max-width: 200px;
+    padding: 5px;
+}
+.instagram img{
+   max-width: 200px;
+   padding: 2px;
+}
+
